@@ -15,5 +15,5 @@ def concat(str1: str, str2: str) -> str:
     Returns:
         str: result string
     """
-    result = "{} {}".format(str1, str2)
+    result = str1 + "" + str2
     return result
